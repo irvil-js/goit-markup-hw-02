@@ -108,6 +108,10 @@ body {
   color: var(--accent-color);
 }
 
+.link-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .logo-style {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -225,21 +229,18 @@ body {
   color: var(--white-clr);
 }
 
-.contacts-footer {
-  color: rgba(255, 255, 255, 0.6);
-}
 .btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 18.7;
+  line-height: 1.62;
   letter-spacing: 0.06em;
   background-color: #f5f4fa;
   color: var(--title-color);
 }
 
-.btn:hover:hover,
+.btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
 
@@ -264,4 +265,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+.site-nav .link-nav.current {
+  color: var(--accent-color);
 }
