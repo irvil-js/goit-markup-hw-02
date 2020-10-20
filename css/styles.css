@@ -227,13 +227,30 @@ body {
   color: var(--white-clr);
 }
 
-.btn {
+.btn-service {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.88;
+  text-align: center;
   letter-spacing: 0.06em;
+  background-color: #f5f4fa;
+  color: var(--title-color);
+}
+
+.btn-service:hover,
+.btn-service:focus {
+  background-color: var(--accent-color);
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: var(--title-color);
 }
@@ -243,6 +260,10 @@ body {
   background-color: var(--accent-color);
 
   color: var(--white-clr);
+}
+
+.project {
+  text-decoration: none;
 }
 
 .project-title {
